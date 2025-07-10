@@ -458,6 +458,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             return filteredData;
         } catch (error) {
+            
             console.error("Error fetching LeetCode data:", error);
             return [];
         }
@@ -558,6 +559,7 @@ document.addEventListener("DOMContentLoaded", () => {
             return submissions;
         } catch (error) {
             console.error("Error fetching LeetCode data:", error);
+            console.log(data);
             return {};
         }
     }
